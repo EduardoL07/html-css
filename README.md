@@ -3,4 +3,4 @@
 
 Estou aprendendo a criar sites, e agora estou aprendendo a gerenciar meus repositórios!
 
-<a href="https://eduardol07.github.io/html-css/desafio004/desafio01">Executar o desafio 04</a>
+<a href="https://eduardol07.github.io/html-css/desafio004/desafio01" target="_blank">Executar o desafio 04</a>
