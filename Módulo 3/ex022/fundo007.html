@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento Vertical</title>
+    <style>
+        #container {
+            position: relative;
+            height: 100vh;
+            background-color: purple;
+            padding: 10px;
+        }
+
+        #conteudo {
+            position: absolute;
+            height: 400px;
+            width: 400px;
+            background-color: blue;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%,-50%);
+
+            
+            
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2em;
+            padding-top: 200px;
+            color: red;
+        }
+
+        video {
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <h1>Love U 💕</h1>
+        <article id="conteudo">
+            
+            <video id="conteudo" src="imagens/WhatsApp Video 2024-06-05 at 19.23.30.mp4" autoplay controls></video>
+        </article>
+    </section>
+</body>
+</html>
