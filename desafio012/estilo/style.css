@@ -39,6 +39,8 @@
   section {
     padding-top: 10vh;
     padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
   }
 
 section.normal {
@@ -49,6 +51,11 @@ section.normal {
 section.imagem {
     background-color: rgb(43, 40, 40);
     color: white;
+}
+
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.267);
+    width: 300px;
 }
 
   footer {
