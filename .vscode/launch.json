@@ -5,10 +5,25 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Attach to Edge",
+            "port": 9222,
+            "request": "attach",
+            "type": "msedge",
+            "webRoot": "${workspaceFolder}"
+        },
+       
+
+        {
+            "command": "npm start",
+            "name": "Run npm start",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
             "type": "msedge",
             "request": "launch",
-            "name": "Open desafio01.html",
-            "file": "c:\\Users\\lessa\\Documents\\html-css\\html-css\\Módulo 3\\ex023\\desafio01.html"
+            "name": "Open tabela004.html",
+            "file": "c:\\Users\\lessa\\Documents\\html-css\\html-css\\Módulo 3\\ex023\\tabela004.html"
         }
     ]
 }
