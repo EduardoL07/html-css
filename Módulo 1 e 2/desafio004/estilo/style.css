@@ -14,11 +14,11 @@
 }
 
 :root {
-    --cor0: #C5EBD6;
-    --cor1: #83e1ad;
-    --cor2: #2fa866;
-    --cor3: #1a5c37;
-    --cor4: #063d1e;
+    --cor0: #8C8C8C;
+    --cor1: #404040;
+    --cor2: #0D0D0D;
+    --cor3: #D9D9D9;
+    --cor4: #F2F2F2;
 
     --fonte-destaque: 'Bebas Neue', cursive;
     --fonte-padrao: arial, verdana, helvetica, sans-serif;
@@ -26,16 +26,23 @@
 }
 
 body {
-    background-color: var(--cor0);
+    background-color: var(--cor1);
     font-family: var(--fonte-padrao);
   
 }
+
+img {
+    padding: 0;
+    margin: auto;
+    width: 200;
+}
+
 a.externo:after{
     content: '\00A0\1F517';
 }
 
 header {
-    background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor2));
     min-height: 150px;
     text-align: center;
 }
@@ -64,13 +71,13 @@ header > p {
 }
 
 nav {
-    background-color: var(--cor4);
+    background-color: var(--cor2);
     padding: 10px;
     box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.548);
 }
 
 nav > a {
-    color: var(--cor1);
+    color: var(--cor4);
     padding: 10px;
     border-radius: 7px;
     text-decoration: none;
@@ -122,7 +129,7 @@ div.Video > iframe {
 }
 
 main h1 {
-    color: var(--cor4);
+    color: var(--cor3);
     font-family: var(--fonte-android);
     font-weight: normal;
     font-size: 1.8em;
